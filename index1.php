@@ -30,9 +30,9 @@ class Movie{
 
         // Descrizione in base al rating
         if ($IMDb_rating >= 8) {
-            $this->description=$this->description . 'Critically acclaimed. ';
+            $this->description .= 'Critically acclaimed. ';
         }else{
-            $this->description=$this->description . 'Moderately appreciated. ';
+            $this->description .= 'Moderately appreciated. ';
         }
     }
 
